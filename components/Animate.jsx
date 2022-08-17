@@ -61,7 +61,7 @@ export default function Animate() {
       setTimeout(() => setMessageEmptyError(false), 3000);
     } else {
 
-      let url = `https://web.whatsapp.com/send?phone=${+526561630250}`;
+      let url = `https://wa.me/send?phone=${+526561630250}`;
 
       url += `&text=Nombre: ${encodeURI(namePerson)}%0A${encodeURI(message)}&app_absent=0`;
 
