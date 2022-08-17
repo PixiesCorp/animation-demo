@@ -8,33 +8,33 @@ export default function NavBar() {
       <ul className={styles.containNav}>
         <li>
           <Link href="/" className={styles.link}>
-            <a>
+            <a className={styles.a}>
               <HiHome size="1.5em"/>
-              Inicio
+              <p>Inicio</p>
             </a>
           </Link>
         </li>
         <li>
           <Link href="/ubicacion">
-            <a>
+            <a className={styles.a}>
               <HiLocationMarker size="1.5em"/>
-              Ubicacion
+              <p>Ubicacion</p>
             </a>
           </Link>
         </li>
         <li>
           <Link href="/asistencia">
-          <a>
+          <a className={styles.a}>
             <HiCheck size="1.5em"/>
-            Asistencia
+            <p>Asistencia</p>
           </a>
           </Link>
         </li>
         <li>
           <Link href="/galeria">
-            <a>
+            <a className={styles.a}>
               <HiPhotograph size="1.5em"/>
-              Galeria
+              <p>Galeria</p>
             </a>
           </Link>
         </li>
