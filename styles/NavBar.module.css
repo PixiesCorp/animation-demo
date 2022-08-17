@@ -25,6 +25,10 @@
   align-items: center;
 }
 
+.a p {
+  font-size: 0.8em;
+}
+
 .link {
   display: flex;
   flex-direction: column;

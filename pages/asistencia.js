@@ -8,7 +8,6 @@ export default function Asistencia (){
     <>
       <PageLayout />
       <NavBar />
-      <h1 className={styles.h1}>Esta es pagina asistencia</h1>
       <Animate />
       
     </>
