@@ -1,6 +1,6 @@
 import styles from '../styles/CountDown.module.css'
 import { useState, useEffect } from 'react'
-import {getRemainingTimeUntilMsTimestamp} from './CountdownTimerUtils'
+import {getRemainingTimeUntilMsTimestamp} from './CountDownTimerUtils'
 
 const defaultRemainingTime = {
     seconds: '00',
