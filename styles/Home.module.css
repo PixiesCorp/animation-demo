@@ -1,6 +1,47 @@
-.container {
-  padding: 0 2rem;
-  display: grid;
+.homeContain {
+  width: 100%;
   height: 100vh;
-  place-content: center;
+  background: linear-gradient(rgba(5, 7, 12, 0.2),rgba(5, 7, 12, 0.2)), 
+  url(/images/bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.homeContainTitle {
+  width: 100vw;
+  height: 6em;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 5em;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.homeContainTitle h1 {
+  font-size: 3.5em;
+  line-height: 1em;
+  font-family: 'Sacramento', cursive;
+  padding-right: 0.3em;
+  padding-left: 0.3em;
+  text-align: center;
+  font-weight: 500;
+}
+
+.homeContainTitle h3 {
+  font-size: 1.3em;
+  letter-spacing: 3px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+
+.homeDate {
+  width: 100vw;
+  text-align: center;
+  letter-spacing: 3px;
+  position: absolute;
+  bottom: 12.5em;
+  font-family: 'Montserrat', sans-serif;
 }

@@ -1,7 +1,10 @@
 .btn {
   position: absolute;
-  bottom: 2em;
+  bottom: 6em;
   width: 90%;
+  height: 3em;
+  border-radius: 10px;
+  background: #000;
 }
 
 .container {
@@ -26,6 +29,7 @@
   width: 3em;
   height: 3em;
   position: absolute;
+  background-color: #000;
   top: 1em;
   right: 1em;
   border-radius: 50%;

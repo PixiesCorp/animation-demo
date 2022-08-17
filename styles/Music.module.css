@@ -1,0 +1,15 @@
+.homeContainMusic {
+  width: 100vw;
+  height: 6em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+  position: absolute;
+  bottom: 15em;
+}
+
+.homeMusicIcon {
+  font-size: 4em;
+}
