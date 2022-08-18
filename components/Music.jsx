@@ -1,6 +1,7 @@
 import { useState, useRef } from "react";
 import { BsFillPlayFill, BsPauseFill } from 'react-icons/bs'
 import styles from '../styles/Music.module.css'
+import { motion } from 'framer-motion'
 
 function Music (){
   const [isPlaying, setIsPlaying] = useState(false)
@@ -20,9 +21,9 @@ function Music (){
     <div className={styles.homeContainMusic}>
       <h2>Escucha Nuestra Cancion</h2>
       <audio ref={audioPlayer} src="/audio/Perfect.mp3"></audio>
-      <button onClick={togglePlayPause} className={styles.homeMusicIcon}>
+      <motion.button onClick={togglePlayPause} className={styles.homeMusicIcon} whileTap={{ scale: 1.1}}>
         { isPlaying ? <BsPauseFill /> : <BsFillPlayFill />}
-      </button>
+      </motion.button>
     </div>
   )
 }

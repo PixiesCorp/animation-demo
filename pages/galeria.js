@@ -1,3 +1,4 @@
+import Gallery from "../components/GalleryGrid"
 import NavBar from "../components/NavBar"
 import PageLayout from "../components/PageLayout"
 
@@ -6,7 +7,7 @@ export default function Galeria (){
     <>
       <PageLayout />
       <NavBar />
-      <h1>Esta es pagina galeria</h1>
+      <Gallery />
     </>
   )
 }

@@ -8,7 +8,7 @@
   align-items: center;
   flex-direction: row;
   position: absolute;
-  bottom: 5em;
+  bottom: 3em;
 }
 
 .containNum {
@@ -26,4 +26,24 @@
 
 .twoNumbers {
   width: 2ch;
+}
+
+/* iphone 8 */
+@media only screen and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) {
+  
+	.countdownTimer {
+    bottom: 5em;
+    font-size: 16px;
+    height: 3em;
+  }
+}
+
+/* iphone X */
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+	
+  .countdownTimer {
+    bottom: 5em;
+    font-size: 20px;
+    height: 1em;
+  }
 }

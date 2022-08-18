@@ -1,12 +1,14 @@
 .homeContain {
   width: 100%;
   height: 100vh;
-  background: linear-gradient(rgba(5, 7, 12, 0.2),rgba(5, 7, 12, 0.2)), 
-  url(/images/bg.jpg);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: fixed;
-  background-size: cover;
+}
+
+.bg {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: -1;
+  filter: brightness(85%);
 }
 
 .homeContainTitle {
@@ -42,6 +44,37 @@
   text-align: center;
   letter-spacing: 3px;
   position: absolute;
-  bottom: 12.5em;
+  bottom: 10em;
   font-family: 'Montserrat', sans-serif;
+}
+
+/* iphone 8 */
+@media only screen and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) {
+  
+	.homeContainTitle h1{
+    font-size: 3em;
+  }
+
+  .homeContainTitle h3{
+    font-size: 1em;
+  }
+
+  .homeDate {
+    bottom: 8.5em;
+  }
+}
+
+/* iphone X */
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+  .homeContainTitle h1{
+    font-size: 3.2em;
+  }
+
+  .homeContainTitle h3{
+    font-size: 1.1em;
+  }
+
+  .homeDate {
+    bottom: 9em;
+  }
 }
