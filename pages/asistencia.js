@@ -5,7 +5,6 @@ import styles from "../styles/Asist.module.css"
 import Image from 'next/image'
 import Suit from '../public/images/suit.png'
 import Dress from '../public/images/dress.png'
-import { motion } from 'framer-motion'
 
 export default function Asistencia (){
   return(
@@ -13,7 +12,7 @@ export default function Asistencia (){
       <PageLayout />
       <NavBar />
       
-      <motion.div className={styles.asistContain} initial={{ x: -200}} animate={{x: 0}} transition={{duration: 0.8, type: "spring"}}>
+      <div className={styles.asistContain}>
         <h1 className={styles.asistTitle}>Codigo de Vestimenta</h1>
         <div className={styles.asistContainImg}>
           <span className={styles.suit}>
@@ -31,9 +30,7 @@ export default function Asistencia (){
         <h1 className={styles.confirm}>!Confirma tu asistencia!</h1>
         <Animate />
         <div className={styles.fill}></div>
-      </motion.div>
-      
-      
+      </div>
     </>
   )
 }
