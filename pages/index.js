@@ -1,4 +1,4 @@
-import Image from 'next/future/image'
+import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import PageLayout from '../components/PageLayout'
 import NavBar from '../components/NavBar'
@@ -12,7 +12,7 @@ export default function Home() {
       <PageLayout />
       <NavBar />
       <div className={styles.homeContain}>
-        <Image src={bg} alt=""className={styles.bg}/>
+        <Image src={bg} alt=""className={styles.bg} layout="fill"/>
         <div className={styles.homeContainTitle}>
           <h1>Alexis & Andrea</h1>
           <h3>Nuestra Boda</h3>

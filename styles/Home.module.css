@@ -1,13 +1,10 @@
 .homeContain {
   width: 100%;
   height: 100vh;
+  position: relative;
 }
 
 .bg {
-  width: 100%;
-  height: 100%;
-  position: relative;
-  z-index: -1;
   filter: brightness(85%);
 }
 

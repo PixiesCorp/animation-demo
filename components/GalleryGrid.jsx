@@ -1,4 +1,4 @@
-import Image from "next/future/image";
+import Image from "next/image";
 import styles from "../styles/GalleryGrid.module.css";
 import boda1 from "../public/images/boda-1.jpg";
 import boda2 from "../public/images/boda-2.jpg";
@@ -13,27 +13,13 @@ export default function Gallery() {
     <div className={styles.gallery}>
       <h1 className={styles.galleryTitle}>Galeria</h1>
       <div className={styles.galleryContain}>
-        <span className={styles.p1}>
-          <Image src={boda1} alt="" className={styles.photo} priority={true} />
-        </span>
-        <span className={styles.p2}>
-          <Image src={boda2} alt="" className={styles.photo} />
-        </span>
-        <span className={styles.p3}>
-          <Image src={boda3} alt="" className={styles.photo} />
-        </span>
-        <span className={styles.p4}>
-          <Image src={boda4} alt="" className={styles.photo} />
-        </span>
-        <span className={styles.p5}>
-          <Image src={boda5} alt="" className={styles.photo} />
-        </span>
-        <span className={styles.p6}>
-          <Image src={boda6} alt="" className={styles.photo} />
-        </span>
-        <span className={styles.p7}>
-          <Image src={boda7} alt="" className={styles.photo} />
-        </span>
+          <Image src={boda1} alt="" className={styles.photo} priority={true} layout="responsive"/>
+          <Image src={boda4} alt="" className={styles.photo} layout="responsive"/>
+          <Image src={boda5} alt="" className={styles.photo} layout="responsive"/>
+          <Image src={boda3} alt="" className={styles.photo} layout="responsive"/>
+          <Image src={boda6} alt="" className={styles.photo} layout="responsive"/>
+          <Image src={boda7} alt="" className={styles.photo} layout="responsive"/>
+          <Image src={boda2} alt="" className={styles.photo} layout="responsive"/>
       </div>
       <div className={styles.fill}></div>
     </div>
