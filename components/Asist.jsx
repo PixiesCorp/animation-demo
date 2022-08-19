@@ -18,10 +18,10 @@ export default function Asist() {
       </div>
       <h3 className={styles.typeEvent}>Formal</h3>
       <div className={styles.info}>
-        <p>$Buzon de Dinero$</p>
-        <p>!No Niños!</p>
+        <p>$ Tanda del Dolar $</p>
+        <p>! No Niños !</p>
       </div>
-      <h1 className={styles.confirm}>!Confirma tu asistencia!</h1>
+      <h1 className={styles.confirm}>! Confirma tu asistencia !</h1>
       <Animate />
       <div className={styles.fill}></div>
     </div>

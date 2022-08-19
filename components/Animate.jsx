@@ -140,7 +140,8 @@ export default function Animate() {
                     style: {
                       margin: 0,
                       padding: "0 0 0 5px",
-                      fontSize: 15,
+                      fontSize: 10,
+                      display: "none"
                     },
                   }}
                   name='message'
@@ -178,7 +179,7 @@ export default function Animate() {
         onClick={() => setIsOpen(true)}
         className={styles.btn}
       >
-        Animate
+        CONFIRMAR
       </motion.button>
     </div>
   );
