@@ -32,6 +32,8 @@
   line-height: 1em;
   letter-spacing: 0.15em;
   padding: 1em;
+  padding-right: 2em;
+  padding-left: 2em;
   font-family: "Sacramento", cursive;
   font-weight: 500;
 }
