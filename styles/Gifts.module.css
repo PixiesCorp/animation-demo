@@ -1,0 +1,38 @@
+.GiftContain {
+  background-color: #a5b4a7;
+  height: 100vh;
+  width: 100vw;
+}
+
+.logos {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 60%;
+  position: relative;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.liverpool {
+  width: 10em;
+}
+
+.sears {
+  width: 10em;
+}
+
+.amazon {
+  width: 10em;
+}
+
+.title {
+  text-align: center;
+  font-size: 3em;
+  line-height: 1em;
+  letter-spacing: 0.15em;
+  padding: 1em;
+  font-family: "Sacramento", cursive;
+  font-weight: 500;
+}
+

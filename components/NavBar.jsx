@@ -6,6 +6,7 @@ import {
   HiCheck,
   HiPhotograph,
 } from "react-icons/hi";
+import { AiFillGift } from "react-icons/ai"
 import { motion } from "framer-motion";
 
 export default function NavBar() {
@@ -45,6 +46,18 @@ export default function NavBar() {
             <a className={styles.a}>
               <HiCheck size="1.8em" />
               <p>Asistencia</p>
+            </a>
+          </Link>
+        </motion.li>
+        <motion.li
+          whileTap={{
+            scale: 1.3,
+          }}
+        >
+          <Link href="/regalos" className={styles.link}>
+            <a className={styles.a}>
+              <AiFillGift size="1.8em" />
+              <p>Regalos</p>
             </a>
           </Link>
         </motion.li>
