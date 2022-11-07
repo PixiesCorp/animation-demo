@@ -4,7 +4,7 @@ import PageLayout from '../components/PageLayout'
 import NavBar from '../components/NavBar'
 import Music from '../components/Music'
 import CountDown from '../components/CountDown'
-import bg from '../public/images/bg.jpg'
+import bg from '../public/images/portada.jpg'
 
 export default function Home() {
   return (

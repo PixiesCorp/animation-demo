@@ -5,6 +5,7 @@
 
 .bg {
   filter: brightness(85%);
+  object-position: 80% 90%;
 }
 
 .homeContainTitle {
@@ -42,6 +43,12 @@
   position: absolute;
   bottom: 10em;
   font-family: 'Montserrat', sans-serif;
+}
+
+@media screen and (min-width: 1200px) {
+  .bg {
+    object-position: 50% 90%;
+  }
 }
 
 /* iphone 8 */
